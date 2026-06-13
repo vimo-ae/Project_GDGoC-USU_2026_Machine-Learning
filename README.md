@@ -1,10 +1,10 @@
-# AI Impact on Jobs 2030 — Klasifikasi Risk_Category
+# AI Impact Classifier: Prediksi Masa Depan Pekerjaanmu
+Proyek Machine Learning untuk memprediksi apakah sebuah pekerjaan termasuk kategori risiko Low, Medium, atau High terhadap otomatisasi AI di tahun 2030, berdasarkan karakteristik pekerjaannya.
 
 ## Isi Folder
-- `AI_Jobs_Classification.ipynb` → notebook lengkap: EDA, preprocessing, training, evaluasi, perbandingan model
+- `Klasifikasi_Risiko_Otomatisasi_Pekerjaan_Tahun_2030.ipynb` → notebook lengkap: EDA, preprocessing, training, evaluasi, perbandingan model
 - `app.py` → aplikasi Streamlit untuk deployment (prediksi interaktif)
 - `model_logreg.pkl`, `scaler.pkl`, `label_encoder.pkl`, `feature_names.pkl` → hasil model yang sudah dilatih (dipakai oleh app.py)
-- `AI_Impact_on_Jobs_2030.csv` → dataset (taruh di folder yang sama dengan notebook)
 
 ## Cara Menjalankan
 
@@ -15,7 +15,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn joblib streamlit
 
 ### 2. Buka & jalankan notebook
 ```bash
-jupyter notebook AI_Jobs_Classification.ipynb
+Klasifikasi_Risiko_Otomatisasi_Pekerjaan_Tahun_2030.ipynb
 ```
 Jalankan semua cell (Run All). Ini akan menghasilkan ulang file `.pkl` jika belum ada.
 
