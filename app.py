@@ -54,7 +54,7 @@ with col1:
 
     if salary < 30000 or salary > 150000:
         st.warning(
-            f"Warning: Gaji yang Anda masukkan (\\$26,250) agak terlalu rendah dari standar sistem kami"
+            f"Warning: Gaji yang Anda masukkan (\\$26,250) agak terlalu rendah dari standar sistem kami "
             f"(\\$30,000–$150,000/tahun). Hasil perkiraan di bawah mungkin menjadi kurang pas atau kurang akurat."
         )
 
