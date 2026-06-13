@@ -54,8 +54,9 @@ with col1:
 
     if salary < 30000 or salary > 150000:
         st.warning(
-            f"Warning: Nilai konversi gaji (\\${salary:,.0f}) berada di luar rentang data training model "
-            f"(\\$30,000–\\$150,000/tahun). Prediksi mungkin kurang akurat."
+            f"Warning: Gaji yang Anda masukkan ($26,250) agak terlalu rendah dari standar sistem kami"
+            f"($30,000–$150,000/tahun). Hasil perkiraan di bawah mungkin menjadi kurang pas atau kurang"
+            f"akurat.Nilai konversi gaji (\\${salary:,.0f}) berada di luar rentang data training model "
         )
 
     experience = st.number_input("Udah berapa tahun nih nyemplung di dunia kerja?", min_value=0, max_value=40, value=5)
